@@ -8,7 +8,6 @@ const userRouter = require('./user/userRouter.js')
 server.use(express.json())
 server.use(helmet())
 
-
 server.use('/api/posts', postRouter)
 server.use('/api/users', userRouter)
 
